@@ -4,14 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon"
+        sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
+    <title>Instagram-UI-Tailwind</title>
     <link rel="stylesheet" href="./assets/css/output.css">
-
+    <style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <!-- =========================side bar========================== -->
-    <section class="h-full bg-black py-6 fixed w-[250px]">
+    <section class="h-full bg-black py-6 fixed w-[250px] border-r-2 border-black-alt">
         <!-- =================instagram logo======================= -->
         <div class="logo px-6 ">
             <svg aria-label="Instagram" class="_ab6-" color="rgb(245, 245, 245)" fill="rgb(245, 245, 245)" height="29"
@@ -213,7 +219,117 @@
     </section>
     <!-- ========================================main content======================================== -->
     <main class="grid grid-cols-main-grid ml-[250px]">
-        <section class="bg-red-400 h-[800px]"></section>
+        <section class="bg-black" px-10 ">
+            <!--========================= stories section============================  -->
+            <section
+                class=" mt-12 flex space-x-3 px-2 py-2 mx-auto items-center overflow-x-auto w-[600px] no-scrollbar ">
+                <!-- your story -->
+                <div class=" text-gray-400 text-xs flex flex-col items-center">
+            <div class=" w-14 h-14 rounded-full p-0.5  border-2 border-black-alt">
+                <img class="rounded-full"
+                    src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t39.30808-6/271530150_3219491994953402_6450588959455262401_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1b51e3&_nc_ohc=tctT5dFAcKMAX9DFtCn&_nc_ht=scontent.fmaa1-1.fna&oh=00_AfDiNc1erYOghRpwJqFoLK0YT7jN4GM2tbp5l3XNwM57tw&oe=652034FD"
+                    alt="VJ">
+            </div>
+            <h6>your story</h6>
+            </div>
+            <!-- anbu story -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full" src="https://avatars.githubusercontent.com/u/15264938?v=4" alt="anbu">
+                </div>
+                <h6>anburocky</h6>
+            </div>
+
+            <!-- cyberdude -->
+
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full "
+                        src="https://yt3.googleusercontent.com/ytc/APkrFKae5RVUjrYA5hcJWDmpDZpwTpV9I9sk3EoXPxsTng=s900-c-k-c0x00ffffff-no-rj"
+                        alt="cyberdude">
+                </div>
+                <h6>cyberdude</h6>
+            </div>
+            <!-- a2d -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full "
+                        src="https://yt3.googleusercontent.com/ytc/APkrFKZZcnhhCsP6n7ePUBbwW32mebQEmJNTsc3P-Gua=s900-c-k-c0x00ffffff-no-rj"
+                        alt="a2d">
+                </div>
+                <h6>a2d_army</h6>
+            </div>
+            <!-- thamizh selvi -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full  "
+                        src="https://yt3.googleusercontent.com/ytc/AOPolaQVdx8n1JroNopmqxFsZIyGmUYjkyeNu3j6lrD0rg=s900-c-k-c0x00ffffff-no-rj"
+                        alt="thamizh">
+                </div>
+                <h6>thamizhsel...</h6>
+            </div>
+            <!-- amala shaji -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full  "
+                        src="https://i.pinimg.com/736x/65/70/4e/65704eb83b2d056ef092fbe8311ee415.jpg" alt="amala">
+                </div>
+                <h6>amala_shaji</h6>
+            </div>
+            <!-- vj parru -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full h-[52px] w-14 "
+                        src="https://s3.filmytoday.com/albums/Bollywood/2023/Mar/15/VJ_Parvathy_Latest_Photos/profile_371d20f6ef2e3bcabe28ee8520fe3973.jpg"
+                        alt="paru">
+                </div>
+                <h6>vj_paru</h6>
+            </div>
+            <!-- dq salman -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full h-[52px] w-14 "
+                        src="https://yt3.googleusercontent.com/Xv77VwsjfwSCfeqGw5mVnWpwe362H5yFvyTxrILLbpwLHwXJ_r-MDVt93ZhlEQqXg_m0ZRBgjg=s900-c-k-c0x00ffffff-no-rj"
+                        alt="dulquer">
+                </div>
+                <h6>dq_salman</h6>
+            </div>
+
+            <!-- fahad fasil -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full h-[52px] w-14 "
+                        src="https://e0.pxfuel.com/wallpapers/48/916/desktop-wallpaper-fahadh-faasil-thumbnail.jpg"
+                        alt="fafa">
+                </div>
+                <h6>fahad_fas..</h6>
+            </div>
+            <!-- ashok selvan -->
+            <div class="text-white text-xs  flex flex-col items-center">
+                <div
+                    class=" w-14 h-14 rounded-full p-0.5  bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 ">
+                    <img class="rounded-full h-[52px] w-14 "
+                        src="data:image/jpeg;base64,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"
+                        alt="ashok">
+                </div>
+                <h6>ashok_sel..</h6>
+            </div>
+
+
+
+        </section>
+
+        <!-- =============================feed sections =========================== -->
+
+        </section>
         <section></section>
     </main>
 

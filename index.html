@@ -16,8 +16,17 @@
 </head>
 
 <body class="bg-black">
+    <!-- top bar only shown on mobile views -->
+    <nav>
+
+    </nav>
+
+
+
+
     <!-- =========================side bar========================== -->
-    <section class="h-full bg-black py-6 fixed  border-r-[1.5px] border-black-alt  lg:w-[250px] sm:w-[75px]">
+    <section
+        class="h-full bg-black py-6 fixed  border-r-[1.5px] border-black-alt  lg:w-[250px] sm:w-[75px] hidden sm:block">
         <!-- =================instagram logo======================= -->
         <div class="logo lg:px-6  sm:mx-6 sm:px-1" id="logo">
             <svg aria-label="Instagram" class="_ab6-" color="rgb(245, 245, 245)" fill="rgb(245, 245, 245)" height="29"
@@ -223,7 +232,7 @@
         <section class="bg-black lg:mx-10  ">
             <!-- stories section  -->
             <section
-                class=" mt-10 flex space-x-3 px-2 py-2 mx-auto items-center overflow-x-auto lg:w-[550px] slg:w-[550px] md:w-[500px] sm:w-[450px] no-scrollbar s ">
+                class=" mt-10 flex space-x-3 px-2 py-2 mx-auto items-center overflow-x-auto lg:w-[550px] slg:w-[550px] md:w-[500px] sm:w-[450px]  no-scrollbar lmb:w-[480px]  ">
                 <!-- your story -->
                 <div class=" text-gray-400 text-xs flex flex-col items-center">
                     <div class=" w-14 h-14 rounded-full p-0.5  border-2 border-black-alt">
@@ -326,12 +335,12 @@
             </section>
 
             <!-- ========================feed section========================= -->
-            <section class=" lg:mx-32 mt-8 mb-8 lsm:mx-28 sm:mx-[5.5rem]  slg:mx-56 md:mx-36  ">
+            <section class=" lg:mx-32 mt-8 mb-8 lsm:mx-28 sm:mx-[5.5rem]  slg:mx-56 md:mx-36  lmb:mx-20">
 
                 <!-- mark's post  -->
                 <div class="post-area text-white border-b-[1.5px] border-black-alt pb-2">
                     <!-- post profile details -->
-                    <div class="post-profile-details flex justify-between items-center py-2.5">
+                    <div class="post-profile-details flex justify-between items-center mb:px-2 lmb:px-0 py-2.5">
                         <!-- profile img -->
                         <div class="profile_img cursor-pointer">
                             <img class="w-9 h-9 rounded-full"
@@ -369,7 +378,7 @@
                     </div>
 
                     <!-- post interactions -->
-                    <div class="flex items-center justify-between py-2.5">
+                    <div class="flex items-center justify-between mb:px-2  lmb:px-0 py-2.5">
                         <!-- like comment share icons -->
                         <div class="flex  items-center space-x-4">
                             <span class="cursor-pointer">
@@ -415,22 +424,22 @@
                         </div>
                     </div>
                     <!-- likes count area -->
-                    <div>
+                    <div class="mb:px-2 lmb:px-0">
                         <p>5,24,568 likes</p>
                     </div>
                     <!-- description about post -->
-                    <div class="flex items-start space-x-1.5">
+                    <div class="flex items-start space-x-1.5 mb:px-2 lmb:px-0">
                         <p class="text-sm font-semibold">Zuck <span class="text-sm font-normal">Sparring got a little
                                 out of
                                 hand. May need to update my avatar 🤣</span></p>
 
                     </div>
                     <!-- comment section -->
-                    <div class="text-sm text-[#A8A8A8] py-3 ">view all 100k comment</div>
+                    <div class="text-sm text-[#A8A8A8] py-3 mb:px-2 lmb:px-0 ">view all 100k comment</div>
                     <!-- comment input -->
-                    <div class="flex justify-between items-center ">
+                    <div class="flex justify-between items-center mb:px-2 lmb:px-0 ">
                         <div>
-                            <textarea name="" id="" cols="60" rows="1" placeholder="Add a Commment..."
+                            <textarea name="" id="" cols="20" rows="1" placeholder="Add a Commment..."
                                 class="text-xs text-white py-0.5 resize-none outline-none border-none bg-black"></textarea>
                         </div>
                         <span class="mr-2">
@@ -450,7 +459,7 @@
                 <!-- thamizhselvi -->
                 <div class="post-area text-white border-b-[1.5px] border-black-alt pb-2 mt-4">
                     <!-- post profile details -->
-                    <div class="post-profile-details flex justify-between items-center py-2.5">
+                    <div class="post-profile-details flex justify-between items-center py-2.5 mb:px-2 lmb:px-0 ">
                         <!-- profile img -->
                         <div class="profile_img cursor-pointer">
                             <img class="w-9 h-9 rounded-full"
@@ -486,7 +495,7 @@
                     </div>
 
                     <!-- post interactions -->
-                    <div class="flex items-center justify-between py-2.5">
+                    <div class="flex items-center justify-between py-2.5 mb:px-2 lmb:px-0 ">
                         <!-- like comment share icons -->
                         <div class="flex  items-center space-x-4">
                             <span class="cursor-pointer">
@@ -532,22 +541,22 @@
                         </div>
                     </div>
                     <!-- likes count area -->
-                    <div>
+                    <div class="mb:px-2 lmb:px-0 ">
                         <p>5,24,568 likes</p>
                     </div>
                     <!-- description about post -->
-                    <div class="flex items-start space-x-1.5">
+                    <div class="flex items-start space-x-1.5 mb:px-2 lmb:px-0 ">
                         <p class="text-sm font-semibold">thamizhselvi_ <span class="text-sm font-normal">Be anything,
                                 but
                                 first be yourself 🌹</span></p>
 
                     </div>
                     <!-- comment section -->
-                    <div class="text-sm text-[#A8A8A8] py-3 ">view all 100k comment</div>
+                    <div class="text-sm text-[#A8A8A8] py-3 mb:px-2 lmb:px-0  ">view all 100k comment</div>
                     <!-- comment input -->
-                    <div class="flex justify-between items-center ">
+                    <div class="flex justify-between items-center mb:px-2 lmb:px-0 ">
                         <div>
-                            <textarea name="" id="" cols="60" rows="1" placeholder="Add a Commment..."
+                            <textarea name="" id="" cols="20" rows="1" placeholder="Add a Commment..."
                                 class="text-xs text-white py-0.5 resize-none outline-none border-none bg-black"></textarea>
                         </div>
                         <span class="mr-2">
@@ -566,7 +575,7 @@
                 <!-- anbu's post -->
                 <div class="post-area text-white border-b-[1.5px] border-black-alt pb-2 mt-4">
                     <!-- post profile details -->
-                    <div class="post-profile-details flex justify-between items-center py-2.5">
+                    <div class="post-profile-details flex justify-between items-center py-2.5 mb:px-2 lmb:px-0 ">
                         <!-- profile img -->
                         <div class="profile_img cursor-pointer">
                             <img class="w-9 h-9 rounded-full" src="https://avatars.githubusercontent.com/u/15264938?v=4"
@@ -601,7 +610,7 @@
                     </div>
 
                     <!-- post interactions -->
-                    <div class="flex items-center justify-between py-2.5">
+                    <div class="flex items-center justify-between py-2.5 mb:px-2 lmb:px-0 ">
                         <!-- like comment share icons -->
                         <div class="flex  items-center space-x-4">
                             <span class="cursor-pointer">
@@ -647,22 +656,22 @@
                         </div>
                     </div>
                     <!-- likes count area -->
-                    <div>
+                    <div class="mb:px-2 lmb:px-0 ">
                         <p>5,24,568 likes</p>
                     </div>
                     <!-- description about post -->
-                    <div class="flex items-start space-x-1.5">
+                    <div class="flex items-start space-x-1.5 mb:px-2 lmb:px-0 ">
                         <p class="text-sm font-semibold">anbuselvanrocky <span class="text-sm font-normal">Why do we
                                 fall?
                                 So we learn to pick ourselves up. ❤️</span></p>
 
                     </div>
                     <!-- comment section -->
-                    <div class="text-sm text-[#A8A8A8] py-3 ">view all 100 comment</div>
+                    <div class="text-sm text-[#A8A8A8] py-3 mb:px-2 lmb:px-0 ">view all 100 comment</div>
                     <!-- comment input -->
-                    <div class="flex justify-between items-center ">
+                    <div class="flex justify-between items-center mb:px-2 lmb:px-0  ">
                         <div>
-                            <textarea name="" id="" cols="60" rows="1" placeholder="Add a Commment..."
+                            <textarea name="" id="" cols="20" rows="1" placeholder="Add a Commment..."
                                 class="text-xs text-white py-0.5 resize-none outline-none border-none bg-black"></textarea>
                         </div>
                         <span class="mr-2">
@@ -682,7 +691,7 @@
                 <!-- trisha post -->
                 <div class="post-area text-white border-b-[1.5px] border-black-alt pb-2 mt-4">
                     <!-- post profile details -->
-                    <div class="post-profile-details flex justify-between items-center py-2.5">
+                    <div class="post-profile-details flex justify-between items-center py-2.5 mb:px-2 lmb:px-0 ">
                         <!-- profile img -->
                         <div class="profile_img cursor-pointer">
                             <img class="w-9 h-9 rounded-full" src="./assets/img/trishaprofileround.png" alt="thamizh"
@@ -717,7 +726,7 @@
                     </div>
 
                     <!-- post interactions -->
-                    <div class="flex items-center justify-between py-2.5">
+                    <div class="flex items-center justify-between py-2.5 mb:px-2 lmb:px-0 ">
                         <!-- like comment share icons -->
                         <div class="flex  items-center space-x-4">
                             <span class="cursor-pointer">
@@ -763,21 +772,21 @@
                         </div>
                     </div>
                     <!-- likes count area -->
-                    <div>
+                    <div class="mb:px-2 lmb:px-0 ">
                         <p>5,24,568 likes</p>
                     </div>
                     <!-- description about post -->
-                    <div class="flex items-start space-x-1.5">
+                    <div class="flex items-start space-x-1.5 mb:px-2 lmb:px-0 ">
                         <p class="text-sm font-semibold">trishakrishnan <span class="text-sm font-normal">🌸🧿</span>
                         </p>
 
                     </div>
                     <!-- comment section -->
-                    <div class="text-sm text-[#A8A8A8] py-3 ">view all 100k comment</div>
+                    <div class="text-sm text-[#A8A8A8] py-3 mb:px-2 lmb:px-0  ">view all 100k comment</div>
                     <!-- comment input -->
-                    <div class="flex justify-between items-center ">
+                    <div class="flex justify-between items-center mb:px-2 lmb:px-0 ">
                         <div>
-                            <textarea name="" id="" cols="60" rows="1" placeholder="Add a Commment..."
+                            <textarea name="" id="" cols="20" rows="1" placeholder="Add a Commment..."
                                 class="text-xs text-white py-0.5 resize-none outline-none border-none bg-black"></textarea>
                         </div>
                         <span class="mr-2">

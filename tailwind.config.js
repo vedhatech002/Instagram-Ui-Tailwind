@@ -19,7 +19,8 @@ module.exports = {
         'lmb': '500px',
         // => @media (min-width: 500px) { ... }
         'mb': '320px',
-        // => @media (min-width: 500px) { ... }
+        // => @media (min-width: 320px) { ... }
+
 
       },
     },

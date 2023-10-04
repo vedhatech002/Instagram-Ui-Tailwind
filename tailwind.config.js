@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+
     extend: {
       gridTemplateColumns: {
 
@@ -9,6 +10,13 @@ module.exports = {
       },
       colors: {
         'black-alt': '#262626',
+      },
+      screens: {
+        'slg': '908px',
+        // => @media (min-width: 908px) { ... }
+        'lsm': '684px',
+        // => @media (min-width: 684px) { ... }
+
       },
     },
   },

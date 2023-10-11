@@ -3070,3 +3070,9 @@ video {
     }
   }
 }
+
+@media (min-width: 1260px) {
+  .min-\[1260px\]\:block {
+    display: block;
+  }
+}

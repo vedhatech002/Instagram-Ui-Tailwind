@@ -16,8 +16,6 @@ Instagram Ui design using tailwindcss.
 
 ## Description
 
-[Provide a more detailed description of your project. Explain what it does, its purpose, and any unique features.]
-
 I have created a created a Instagram Ui using tailwindcss.This is my 6th in my Intership Journey Mentored by Mr. Anbuselvan Rocky. It is fully responsive based on tha screen sizes.
 
 ## Demo
@@ -39,10 +37,10 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 
 ## Technologies Used
 
-[List the technologies, programming languages, and libraries/frameworks used in your project.]
+
 - HTML 5
 - Tailwind CSS
-    -using CLI method    
+  - using CLI method    
 
 ## Learned lessons
 
@@ -50,11 +48,11 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 
 ## Installation
 
-- To install and set up your project locally.
-      1. Download or Clone this repo
-      2. Open this cloned folder in your text editors
-      3. In your terminal run **npx tailwindcss -i ./assets/css/main.css  -0 ./assets/css/output.css** this command.
-      4. Now You run the html file youshould see the output. 
+To install and set up your project locally.
+1. Download or Clone this repo
+2. Open this cloned folder in your text editors
+3. In your terminal run **npx tailwindcss -i ./assets/css/main.css  -0 ./assets/css/output.css** this command.
+4. Now You run the html file youshould see the output. 
 
 
 ## Usage

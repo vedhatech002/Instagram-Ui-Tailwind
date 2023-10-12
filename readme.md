@@ -25,12 +25,12 @@ I have created a created a Instagram Ui using tailwindcss.This is my 6th in my I
 ### You can Acces it through[live link](https://vedhatech002.github.io/Instagram-Ui-Tailwind/)
 
 ### Screenshots
+   
+![Instagram Ui in mobile](/assets/sample/mobileview.png)
 
-    ![Instagram Ui in mobile](/assets/sample/mobileview.png)
+![Instagram Ui in tablet](/assets/sample/tabletview.png) 
 
-    ![Instagram Ui in tablet](/assets/sample/tabletview.png) 
-
-    ![Instagram Ui in laptop](/assets/sample/laptopview.png)    
+![Instagram Ui in laptop](/assets/sample/laptopview.png)    
 
 
 ## Internship

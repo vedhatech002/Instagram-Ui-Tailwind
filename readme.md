@@ -22,14 +22,17 @@ I have created a created a Instagram Ui using tailwindcss.This is my 6th in my I
 
 ## Demo
 
-####[live link](https://vedhatech002.github.io/Instagram-Ui-Tailwind/)
- 
- - demo view in mobile screen
-       -![Instagram Ui](/assets/sample/mobileview.png)
--  demo view in tablet screen
-       -![Instagram Ui](/assets/sample/tabletview.png) 
--  demo view in laptop screen
-       -[Instagram Ui](/assets/sample/laptopview.png)        
+### You can Acces it through[live link](https://vedhatech002.github.io/Instagram-Ui-Tailwind/)
+
+### Screenshots
+
+    ![Instagram Ui in mobile](/assets/sample/mobileview.png)
+
+    ![Instagram Ui in tablet](/assets/sample/tabletview.png) 
+
+    ![Instagram Ui in laptop](/assets/sample/laptopview.png)    
+
+
 ## Internship
 
 This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
